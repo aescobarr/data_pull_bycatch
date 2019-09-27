@@ -1,4 +1,5 @@
 *.json
+!taxo.json
 *.csv
 *.js
 settings.py

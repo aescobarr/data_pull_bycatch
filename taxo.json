@@ -1,0 +1,95 @@
+[
+    {
+      "val": "5",
+      "name": "Aves",
+      "loc_name": "Birds",
+      "children": [
+        {
+          "val": "22298",
+          "name": "Puffinus mauretanicus",
+          "loc_name": "Balearic shearwater"
+        },
+        {
+          "val": "25000",
+          "name": "Calonectris diomedea",
+          "loc_name": "Scopoli's shearwater"
+        },
+        {
+          "val": "1164",
+          "name": "Larus",
+          "loc_name": "Seagull"
+        },
+        {
+          "val": "2982",
+          "name": "Phalacrocorax aristotelis",
+          "loc_name": "European shag"
+        },
+        {
+          "val": "8034",
+          "name": "Alca torda",
+          "loc_name": "Razorbill"
+        }
+      ]
+    },
+    {
+      "val": "8",
+      "name": "Mammalia",
+      "loc_name": "Mammals",
+      "children": [
+        {
+          "val": "1192",
+          "name": "Delphinidae",
+          "loc_name": "Dolphin"
+        },
+        {
+          "val": "1192",
+          "name": "Globicephala melas",
+          "loc_name": "Pilot whale"
+        },
+        {
+          "val": "8252",
+          "name": "Monachus",
+          "loc_name": "Mediterranean monk seal"
+        }
+      ]
+    },
+    {
+      "val": "24984",
+      "name": "Chondrichthyes",
+      "loc_name": "Cartilaginous fishes",
+      "children": [
+        {
+          "val": "11179",
+          "name": "Chimaeriformes",
+          "loc_name": "Ghost sharks"
+        },
+        {
+          "val": "25014",
+          "name": "Batoidea",
+          "loc_name": "Rays"
+        },
+        {
+          "val": "25013",
+          "name": "Selachimorpha",
+          "loc_name": "Sharks"
+        }
+      ]
+    },
+    {
+      "val": "75",
+      "name": "Cheloniidae",
+      "loc_name": "Turtles",
+      "children": [
+        {
+          "val": "25004",
+          "name": "Caretta caretta",
+          "loc_name": "Loggerhead sea turtle"
+        },
+        {
+          "val": "21942",
+          "name": "Chelonia mydas",
+          "loc_name": "Green sea turtle"
+        }
+      ]
+    }
+]
