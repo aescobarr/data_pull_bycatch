@@ -113,18 +113,18 @@ def write_csv_class_histo(data):
 
 
 def main():
-    #auth_data = auth()
-    #obs = get_project_observations(settings.api_project_id, auth_data['access_token'])
+    auth_data = auth()
+    obs = get_project_observations(settings.api_project_id, auth_data['access_token'])
 
-    #with open( settings.home_dir + 'data.json', 'w') as outfile:
-        #json.dump(obs, outfile)
+    with open( settings.home_dir + 'data.json', 'w') as outfile:
+        json.dump(obs, outfile)
 
-    with open(settings.home_dir + 'data_agustiescobar.json') as f:
+    with open(settings.home_dir + 'data.json') as f:
         data = json.load(f)
 
-    #write_heatmap_data(data)
-    #write_csv_time_histo_15(data)
-    #write_csv_time_histo_year(data)
+    write_heatmap_data(data)
+    write_csv_time_histo_15(data)
+    write_csv_time_histo_year(data)
     write_csv_class_histo(data)
 
 
